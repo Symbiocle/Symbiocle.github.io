@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/*
+Hierin geef ik aan wat voor fonts er worden toegevoegd. Even informatie waarom ik dit moet doen leg ik uit.
+*/
+@font-face {
+  font-family: interface;
+  src: url("fonts/xctasysansrr.ttf");
+}
+@font-face {
+  font-family: titleklean;
+  src: url("fonts/titlekleanmeme.ttf");
+}
+@font-face {
+    font-family: Century;
+    src: url("fonts/CG.ttf");
+}
+@font-face {
+    font-family: PayPal-SLM;
+    src: url("fonts/PayPalSansSmall-Medium.ttf");
+}
+@font-face {
+    font-family: Uni-Sans;
+    src: url("fonts/uni-sans-thin-caps.ttf");
+}
+body
+{
+      font-size: 20px;
+      text-align: center;
+  color:#fff;
+  padding-top:0cm;
+  background-color: #white;
+}
+* { color:#fff; text-decoration: none;}
+
+.nav-bar{
+  display: inline-block;
+  position: sticky;
+  font-family: Century;
+}
+
+ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #fff}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

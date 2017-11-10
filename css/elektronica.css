@@ -1,0 +1,507 @@
+@charset "UTF-8";
+/*
+Hierin geef ik aan wat voor fonts er worden toegevoegd. Even informatie waarom ik dit moet doen leg ik uit.
+*/
+@font-face {
+  font-family: interface;
+  src: url("fonts/xctasysansrr.ttf");
+}
+@font-face {
+  font-family: titleklean;
+  src: url("fonts/titlekleanmeme.ttf");
+}
+@font-face {
+    font-family: Century;
+    src: url("fonts/CG.ttf");
+}
+@font-face {
+    font-family: PayPal-SLM;
+    src: url("fonts/PayPalSansSmall-Medium.ttf");
+}
+@font-face {
+    font-family: Uni-Sans;
+    src: url("fonts/uni-sans-thin-caps.ttf");
+}
+@font-face {
+    font-family: Open-Bold;
+    src: url("fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+    font-family: Open-XBold;
+    src: url("fonts/OpenSans-ExtraBold.ttf");
+}
+@font-face {
+    font-family: Open-Light;
+    src: url("fonts/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: Open-SBold;
+    src: url("fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+    font-family: Quinzey;
+    src: url("fonts/Quinzey.otf");
+}
+@font-face {
+    font-family: Quinzey-Bold;
+    src: url("fonts/Quinzey_Bold.otf");
+}
+@font-face {
+    font-family: Quinzey-Medium;
+    src: url("fonts/Quinzey_Medium.otf");
+}
+@font-face {
+    font-family: Lovelo-B;
+    src: url("fonts/Lovelo Black.otf");
+}
+@font-face {
+    font-family: Lovelo-LB;
+    src: url("fonts/Lovelo Line Bold.otf");
+}
+@font-face {
+    font-family: Lovelo-LL;
+    src: url("fonts/Lovelo Line Light.otf");
+}
+@font-face {
+    font-family: Nexa-B;
+    src: url("fonts/Nexa Bold.otf");
+}
+@font-face {
+    font-family: Nexa-L;
+    src: url("fonts/Nexa Light.otf");
+}
+body
+{
+      font-size: 20px;
+      text-align: center;
+  color:#fff;
+  padding-top:0cm;
+  background-color: #white;
+}
+* { color:#fff; text-decoration: none;}
+
+.faq{
+  font-size: 10px;
+  font-family: Open-SBold;
+  color: black;
+  float: right;
+  margin-right: 150px;
+}
+
+.sign-up{
+  font-size: 10px;
+  font-family: Open-SBold;
+  color: black;
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-bar{
+  position:inherit;
+  font-family: Century;
+}
+
+ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #fff}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: #cc3E0C;
+  margin: 10px;
+  margin-top: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.image {
+  display: block;
+  width: 220px;
+  height: auto;
+  background-color: #fff;
+  margin: 15px;
+}
+
+.h1{
+  font-size: 30px;
+  margin-top: -5px;
+  font-family: Lovelo-B;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #CC3E0C;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Open-XBold;
+}
+
+.container2 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: #cc3E0C;
+  margin: 10px;
+  margin-top: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.image2 {
+  display: block;
+  width: 220px;
+  height: 150px;
+  background-color: #fff;
+  margin: 15px;
+}
+
+.h2{
+  font-size: 30px;
+  margin-top: -15px;
+  font-family: Lovelo-B;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  opacity: 0;
+  transition: .76s ease;
+  background-color: #CC3E0C;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Open-XBold;
+}
+.container3 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: #cc3E0C;
+  margin: 10px;
+  margin-top: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.image3 {
+  display: block;
+  width: 220px;
+  height: auto;
+  background-color: #fff;
+  margin: 15px;
+}
+
+.h3{
+  font-size: 30px;
+  margin-top: -5px;
+  font-family: titleklean;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  opacity: 0;
+  transition: .76s ease;
+  background-color: #CC3E0C;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+.text3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Open-XBold;
+}
+.container4 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: #cc3E0C;
+  margin: 10px;
+  margin-top: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.image4 {
+  display: block;
+  width: 220px;
+  height: auto;
+  background-color: #fff;
+  margin: 15px;
+}
+
+.h4{
+  font-size: 30px;
+  margin-top: -5px;
+  font-family: titleklean;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  opacity: 0;
+  transition: .76s ease;
+  background-color: #CC3E0C;
+}
+
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+
+.text4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Open-XBold;
+}
+.container5 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: #cc3E0C;
+  margin: 10px;
+  margin-top: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.image5 {
+  display: block;
+  width: 220px;
+  height: auto;
+  background-color: #fff;
+  margin: 15px;
+}
+
+.h5{
+  font-size: 30px;
+  margin-top: -5px;
+  font-family: titleklean;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  opacity: 0;
+  transition: .76s ease;
+  background-color: #CC3E0C;
+}
+
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+
+.text5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Open-XBold;
+}
+.container6 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: #cc3E0C;
+  margin: 10px;
+  margin-top: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.image6 {
+  display: block;
+  width: 220px;
+  height: auto;
+  background-color: #fff;
+  margin: 15px;
+}
+
+.h6{
+  font-size: 30px;
+  margin-top: -5px;
+  font-family: titleklean;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  opacity: 0;
+  transition: .76s ease;
+  background-color: #CC3E0C;
+}
+
+.container6:hover .overlay6 {
+  opacity: 1;
+}
+
+.text6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Open-XBold;
+}
+.container7 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: #cc3E0C;
+  margin: 10px;
+  margin-top: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.image7 {
+  display: block;
+  width: 220px;
+  height: auto;
+  background-color: #fff;
+  margin: 15px;
+}
+
+.h7{
+  font-size: 30px;
+  margin-top: -5px;
+  font-family: titleklean;
+}
+
+.overlay7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  opacity: 0;
+  transition: .76s ease;
+  background-color: #CC3E0C;
+}
+
+.container7:hover .overlay7 {
+  opacity: 1;
+}
+
+.text7 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Open-XBold;
+}
+
+.verkopervdmaand{
+  height: 300px;
+  width: 100%;
+  background-color: darkgreen;
+  display: inline-block;
+  margin-top: 25px;
+}
